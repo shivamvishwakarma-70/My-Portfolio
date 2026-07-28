@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Experience</title>
+
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+<link rel="stylesheet" th:href="@{/css/style.css}">
+</head>
+
+<body class="bg-dark text-white">
+
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-black">
+    <div class="container">
+        <a class="navbar-brand" th:href="@{/}">Shivam</a>
+
+        <div class="navbar-nav ms-auto">
+            <a class="nav-link" th:href="@{/}">Home</a>
+            <a class="nav-link" th:href="@{/about}">About</a>
+            <a class="nav-link active" th:href="@{/experience}">Experience</a>
+            <a class="nav-link" th:href="@{/project}">Project</a>
+            <a class="nav-link" th:href="@{/contact}">Contact</a>
+        </div>
+    </div>
+</nav>
+
+<div class="container py-5">
+
+    <h1 class="text-center text-info mb-5">Experience</h1>
+
+    <div class="card bg-secondary text-white mb-4 shadow">
+        <div class="card-body">
+            <h3>Java Full Stack Developer (Learning)</h3>
+            <h5>2025 - Present</h5>
+            <p>
+                Learning Java, Spring Boot, Spring Security,
+                Hibernate, MySQL, HTML, CSS and Bootstrap.
+            </p>
+        </div>
+    </div>
+
+    <div class="card bg-secondary text-white mb-4 shadow">
+        <div class="card-body">
+            <h3>Student Management System</h3>
+            <h5>Personal Project</h5>
+            <p>
+                Developed a Student Management System using
+                Spring Boot, Thymeleaf and MySQL with
+                Login, Registration and CRUD operations.
+            </p>
+        </div>
+    </div>
+
+    <div class="card bg-secondary text-white shadow">
+        <div class="card-body">
+            <h3>Portfolio Website</h3>
+            <h5>Personal Project</h5>
+            <p>
+                Created a responsive portfolio website using
+                HTML, CSS, Bootstrap and Spring Boot.
+            </p>
+        </div>
+    </div>
+
+</div>
+
+</body>
+</html>
